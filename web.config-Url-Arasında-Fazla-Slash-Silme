@@ -1,6 +1,6 @@
 <rewrite>
   <rules>
-    <rule name="Redirect to fixed URL" stopProcessing="true">
+    <rule name="Redirect URL" stopProcessing="true">
       <match url="^(.*)//+(.*)$" />
       <action type="Redirect" url="{R:1}/{R:2}" />
     </rule>
